@@ -1,0 +1,23 @@
+{
+  "seed": 20261028,
+  "generated": 200000,
+  "retained": 181454,
+  "dropped": 18546,
+  "drop_percent": 9.273000000000001,
+  "n_train": 145163,
+  "n_test": 36291,
+  "n_bonus": 48761,
+  "python": "3.12.1",
+  "torch": "2.6.0",
+  "numpy": "2.1.1",
+  "platform": "macOS-15.7.3-arm64-arm-64bit",
+  "training_dtype": "float32",
+  "evaluation_dtype": "float64",
+  "input_order": [
+    "m",
+    "T",
+    "r",
+    "sigma"
+  ],
+  "input_scaling": "2 * (x - lower_bound) / (upper_bound-lower_bound) - 1"
+}
