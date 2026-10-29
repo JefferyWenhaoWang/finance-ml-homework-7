@@ -1,0 +1,21 @@
+{
+  "analytic_greeks_and_no_arbitrage": "passed",
+  "discrete_kink_test": "passed",
+  "backprop_through_second_derivative": "passed",
+  "R_0": 0.0,
+  "Rprime_0": 0.49,
+  "Rsecond_0": 0.49,
+  "Rsecond_at_plusminus_0.0001": [
+    0.48995100244991835,
+    0.48641607555390826
+  ],
+  "Rsecond_at_plusminus_1e-06": [
+    0.489999510000245,
+    0.48996398676466796
+  ],
+  "Rsecond_at_plusminus_1e-08": [
+    0.48999999510000003,
+    0.4899996398501833
+  ],
+  "safe_branch_test": "passed"
+}
